@@ -1,0 +1,9 @@
+.social-content ul li {
+	margin-bottom:14px;
+}
+
+#about .hide-on-js, #portfolio .hide-on-js, #social .hide-on-js, #contact .hide-on-js {
+	width:580px;
+	display: block;
+	background-color: maroon;
+}

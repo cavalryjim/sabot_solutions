@@ -1,0 +1,71 @@
+/* 
+Credits: Bit Repository
+*/
+
+#acf-area { margin-left: auto; margin-right: auto; width: 300px; font-size: 13px; padding: 0; border: 0px none; }
+
+
+#acf-note { display:none; }
+
+.notification_ok {  background: url('../images/ok.png') no-repeat top left; height: 26px; padding-bottom:5px; padding-left:20px; width: 300px;  text-align: left; }
+.notification_error {  color: #d3606a; height: auto; height: 26px; padding-bottom:5px; width: 300px; text-align: left; }
+
+.hide { display:none; }
+
+div.escts { padding-top:14px; }
+
+/* Label */
+#acf-fields label { width: 60px; float: left; clear: both; height:20px; }
+#acf-fields label.escts { width: 130px; padding-left: 0px; margin: 8px 19px 8px 1px; text-align: right; float: none; }
+
+/* Input, Textarea */
+
+#acf-fields input[type="text"], textarea, select {  }
+
+#acf-fields input[type="text"], select { background-color: #fefefe; padding: 0px; width: 188px; height:14px; float: left; border: 1px solid #dedede; color: #333333; padding:3px;  margin-bottom:15px; font-size: 12px;}
+#acf-fields textarea { background-color: #fefefe; width: 188px; height:115px; padding: 0px; float: left; margin: 5 5 5 0; border: 1px solid #dedede; color: #333333; padding:3px;margin-bottom:15px; font-size: 12px;}
+#acf-fields input[type="checkbox"] { margin: 1px 1px 0 0; float: left; }
+
+#acf-fields input.error { border: 1px solid #eea1a8; }
+#acf-fields select.error { border: 1px solid #eea1a8; }
+#acf-fields textarea.error { border: 1px solid #eea1a8; }
+
+#acf-fields input.ok { border:1px solid #d9d9d9; }
+#acf-fields select.ok { border:1px solid #d9d9d9; }
+#acf-fields textarea.ok { border:1px solid #d9d9d9; }
+
+#acf-fields label.error { display: none; margin:0; padding:0; height:0; width:0;}
+
+
+/* Submit Button */
+#acf-fields .button { background: url(../../style/images/send.jpg) 0 0;
+	background-repeat: no-repeat;
+	width:50px;
+	height:21px;
+	border:0;
+	cursor:pointer;
+	float:left;
+	margin-left:60px;
+	margin-top: -5px;
+	 }
+	 
+#acf-fields .button:hover { background: url(../../style/images/send.jpg) 0 -21px;
+	background-repeat: no-repeat;
+	 }
+	 
+/*for FireFox*/
+    input[type="submit"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner
+    {   
+        border : 0px;
+    } 
+/*for IE8 */
+    input[type="submit"]:focus, input[type="button"]:focus
+    {     
+        outline : none; 
+    }
+
+
+
+#sec_div_two { float: left; display: none; margin: 0; }
+
+#ajax-loading { margin-left:59px; display: none; }
