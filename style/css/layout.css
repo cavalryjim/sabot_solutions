@@ -616,3 +616,18 @@ em.twitterTime a:hover {
 .username {
 	display: block;
 }
+
+/*------------privacy policy page ------------------------*/
+
+.privacy_body {
+   
+   margin: 0 auto; 
+   width: 75%;
+   font-size: 1.1em;
+   overflow: visible;
+  
+}
+
+
+
+
